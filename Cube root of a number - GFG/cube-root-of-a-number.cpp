@@ -13,7 +13,7 @@ class Solution {
             m=(s+e)/2;
             if(m*m*m==N)
             {
-                return (int)m;
+                return m;
             }
             else if(m*m*m<N)
             {
@@ -26,7 +26,7 @@ class Solution {
                 
             }
         }
-        return (int)i;
+        return i;
     }
 };
 
