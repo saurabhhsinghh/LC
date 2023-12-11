@@ -12,13 +12,43 @@ public:
 		of occurrences of x, otherwise returns 0. */
 	int count(int arr[], int n, int x) {
 	    // code here
-	    int c=0;
-	    for(int i=0;i<n;i++)
+	    int start=0,end=n-1,mid,first=2010,last=10;
+	    while(start<=end)
 	    {
-	        if(arr[i]==x)
-	        c++;
+	        mid=start+(end-start)/2;
+	        if(arr[mid]==x)
+	        {
+	            first=mid;
+	            end=mid-1;
+	        }
+	        else if(arr[mid]<x)
+	        {
+	            start=mid+1;
+	        }
+	        else
+	        end=mid-1;
 	    }
-	    return c;
+	    start=0;
+	    end=n-1;
+	    while(start<=end)
+	    {
+	        mid=start+(end-start)/2;
+	        if(arr[mid]==x)
+	        {
+	            last=mid;
+	            start=mid+1;
+	        }
+	        else if(arr[mid]<x)
+	        {
+	            start=mid+1;
+	        }
+	        else
+	        end=mid-1;
+	    }
+	    if(first==2010&&last==10)
+	    return 0;
+	    else
+	    return last-first+1;
 	}
 };
 
