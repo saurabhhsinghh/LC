@@ -11,20 +11,24 @@
 class Solution {
 public:
     int findInMountainArray(int target, MountainArray &mountainArr) {
-         int start = 0, end = mountainArr.length() - 1, peak = -1;
-
-        // Find the peak
-        while(end != start){
-           peak = start + (end - start) / 2;
-           if(mountainArr.get(peak) < mountainArr.get(peak + 1) ){
-              start = peak + 1;
-           }
-           else end = peak;
-        }
-        peak = start;
-
         int low=0;
-        int high=peak;
+        int n=mountainArr.length();
+        int high=n-1;
+        int peak=-1;
+        while(low!=high)
+        {
+            int mid=low+(high-low)/2;
+            if(mountainArr.get(mid)<mountainArr.get(mid+1))
+            {
+            low=mid+1;
+            }
+            else
+            high=mid;
+            
+        }
+        peak=low;
+        low=0;
+        high=peak;
         while(low<=high)
         {
             int mid=low+(high-low)/2;
@@ -38,7 +42,7 @@ public:
             high=mid-1;
         }
         low=peak;
-        high=mountainArr.length() - 1;
+        high=n-1;
         while(low<=high)
         {
             int mid=low+(high-low)/2;
