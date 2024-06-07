@@ -18,7 +18,7 @@ public:
         while(low!=high)
         {
             int mid=low+(high-low)/2;
-            if(mountainArr.get(mid)<mountainArr.get(mid+1))
+            if(mountainArr.get(mid-1)<mountainArr.get(mid))
             {
             low=mid+1;
             }
