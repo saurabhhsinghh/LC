@@ -26,7 +26,7 @@ public:
             high=mid;
             
         }
-        peak=low;
+        peak=low-1;
         low=0;
         high=peak;
         while(low<=high)
