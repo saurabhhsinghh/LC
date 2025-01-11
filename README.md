@@ -15,23 +15,32 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/saurabhhsinghh/LC/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/saurabhhsinghh/LC/tree/master/0349-intersection-of-two-arrays) |
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/saurabhhsinghh/LC/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/saurabhhsinghh/LC/tree/master/0349-intersection-of-two-arrays) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/saurabhhsinghh/LC/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/saurabhhsinghh/LC/tree/master/0349-intersection-of-two-arrays) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/saurabhhsinghh/LC/tree/master/0349-intersection-of-two-arrays) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
