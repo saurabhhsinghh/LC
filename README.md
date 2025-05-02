@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/saurabhhsinghh/LC/tree/master/0073-set-matrix-zeroes) |
+| [0118-pascals-triangle](https://github.com/saurabhhsinghh/LC/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saurabhhsinghh/LC/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0268-missing-number](https://github.com/saurabhhsinghh/LC/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/saurabhhsinghh/LC/tree/master/0287-find-the-duplicate-number) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/saurabhhsinghh/LC/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saurabhhsinghh/LC/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0416-partition-equal-subset-sum](https://github.com/saurabhhsinghh/LC/tree/master/0416-partition-equal-subset-sum) |
 ## Matrix
